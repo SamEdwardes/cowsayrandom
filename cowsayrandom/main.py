@@ -9,6 +9,10 @@ def callback():
     """
     Awesome Portal Gun
     """
+    
+@app.command()
+def hello_world():
+    typer.echo("Hello world")
 
 
 @app.command()
